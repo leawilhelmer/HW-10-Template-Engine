@@ -6,12 +6,12 @@ test("Can instantiate Employee instance", () => {
 });
 
 test("Can set name via constructor arguments", () => {
-  const name = "Alice";
+  const name = "Lea";
   const e = new Employee(name);
   expect(e.name).toBe(name);
 });
 
-test("Can set id via constructor argument", () => {
+test("Can set ID via constructor argument", () => {
   const testValue = 100;
   const e = new Employee("Foo", testValue);
   expect(e.id).toBe(testValue);
